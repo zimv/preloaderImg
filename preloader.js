@@ -1,7 +1,7 @@
  function preloader(images, cb){
     
     //利用好并行加载
-    i = 0;
+    var i = 0;
     var onComplete = function(e){
     	i++;
     	if(i == images.length){
